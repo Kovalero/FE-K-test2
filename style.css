@@ -1,0 +1,21 @@
+.root {
+  margin: 50px;
+  background: #3c3;
+}
+
+.sqr {
+  display: block;
+  width: 300px;
+  height: 300px;
+  background: red;
+  animation: rotate 500ms ease infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
